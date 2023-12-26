@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170760177984",
+    "project_id": "candidate-onboarding",
+    "storage_bucket": "candidate-onboarding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170760177984:android:1a9ccf3362d2af42dd92a5",
+        "android_client_info": {
+          "package_name": "com.example.candidateonboarding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwt_4tAK8Rh3lZmjqo2C37-4XeQeBfgSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

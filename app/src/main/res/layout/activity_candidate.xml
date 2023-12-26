@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/candi"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".candidateActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lavendar_border"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee Items"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="@color/lavendar" />
+
+            <EditText
+                android:id="@+id/employee_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lavendar_border"
+                android:drawablePadding="8dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:padding="8dp"></EditText>
+
+            <EditText
+                android:id="@+id/employee_loc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lavendar_border"
+                android:drawablePadding="8dp"
+                android:hint="Location"
+                android:inputType="text"
+                android:padding="8dp" ></EditText>
+
+
+            <EditText
+                android:id="@+id/employee_clg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lavendar_border"
+                android:drawablePadding="8dp"
+                android:hint="College Name"
+                android:inputType="text"
+                android:padding="8dp" ></EditText>
+
+
+            <EditText
+                android:id="@+id/employee_aadhar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lavendar_border"
+                android:drawablePadding="8dp"
+                android:hint="Aadhar Card Number"
+                android:inputType="text"
+                android:padding="8dp" ></EditText>
+
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Submit"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+            <TextView
+                android:id="@+id/candidate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:text="Already registered?"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
